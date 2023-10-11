@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<link rel="stylesheet" type="text/css" href="estilo.css">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+     <!--Nav-->
+
+     <br>
+
+     <div class="container">
+ 
+         <nav class="navbar navbar-expand-lg bg-body-success">
+             <div class="container-fluid">
+                <div class="logo"><img src="./img/logo-hamburguer.avif" alt="" width="60px" height="40px"></div>
+                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                     <div class="navbar-nav">
+                         <a class="nav-link" href="index.html">Início</a>
+                         <a class="nav-link" href="lanches.html">Lanches</a>
+                         <a class="nav-link" href="contatos.html">Contatos</a>
+                         <a class="nav-link" href="sobre.html">Sobre Nós</a>
+                     </div>
+                 </div>
+             </div>
+             <figure class="text-end">
+                <blockquote class="blockquote">
+                  <p class="telefone-frase">Peça também pelo telefone!</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    (61) 99963-9758 <cite title="Source Title"></cite>
+                </figcaption>
+              </figure>
+         </nav>
+ 
+     </div>
+
+     <script>
+        alert('Sempre entraremos em contatos o mais breve possível.');
+     </script>
+
+     <!--Formulário-->
+ <div class="container">
+     <h2 class="text-center">Formulário</h2>
+
+     <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="validationTooltip01" value="" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label">Endereço</label>
+          <input type="text" class="form-control" id="validationTooltip02" value="" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltipUsername" class="form-label">Email</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+            <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+            <div class="invalid-tooltip">
+              Please choose a unique and valid username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 position-relative">
+          <label for="validationTooltip03" class="form-label">Complemento</label>
+          <input type="text" class="form-control" id="validationTooltip03" required>
+          <div class="invalid-tooltip">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip04" class="form-label">Cidade</label>
+          <select class="form-select" id="validationTooltip04" required>
+            <option selected value="">Sudoeste</option>
+            <option>Gama</option>
+            <option>Ceilândia</option>
+            <option>Taguatinga</option>
+            <option>Asa Sul</option>
+            <option>Asa Norte</option>
+            <option>Cruzeiro</option>
+            <option>Guará</option>
+            <option>Santa Maria</option>
+          </select>
+          <div class="invalid-tooltip">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip05" class="form-label">Cep</label>
+          <input type="text" class="form-control" id="validationTooltip05" required>
+          <div class="invalid-tooltip">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+      </form>
+      <div class="botao-contato">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </div>
+ </div>
+
+    <!--Rodapé-->
+
+    <div class="container">
+
+        <footer class="bg-success text-light">
+            <div class="container-fluid py-3">
+                <div class="row">
+                    <div class="col-4">
+                        <ul class="nav flex-column">
+                            <li class="nav-link"><a href="index.html">Retornar à Loja</a></li>
+                            <li class="nav-link"><a href="sobre.html">Sobre</a></li>
+                            <li class="nav-link"><a href="contatos.html">Contato</a></li>
+                            <li class="nav-link"><a href="#">Suporte</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-8">
+                        <p class="paragrafo-rodape">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sed necessitatibus id
+                            asperiores iste fugiat, praesentium obcaecati explicabo consequatur voluptatem eos earum
+                            blanditiis dolorem eaque veritatis libero? Magni, nam fugiat.
+                        </p>
+                        <ul class="nav">
+                            <li class="nav-link"><i class="fab fa-facebook fa-3x "></i></li>
+                            <li class="nav-link"><i class="fab fa-instagram fa-3x"></i></li>
+                            <li class="nav-link"><i class="fab fa-twitter fa-3x"></i></li>
+                            <li class="nav-link"><i class="fab fa-whatsapp fa-3x"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="background-color: wheat; padding: 20px;">
+                &copy 2023 Copyright: <a href="#">André Lanches</a>
+            </div>
+        </footer>
+
+    </div>
+    
+</body>
+</html>
